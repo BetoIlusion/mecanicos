@@ -1,0 +1,40 @@
+body {
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    color: #514B64;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px; /* Ajusta este valor según tus preferencias */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 20px; /* Añade un relleno al contenedor para mejorar el espacio alrededor del contenido */
+    background-color: #3e1f88; /* Color de fondo del contenedor */
+    border-radius: 1rem; /* Redondea los bordes del contenedor */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+}
+
+.rounded-lg {
+    border-radius: 5rem; /* Redondea los bordes de elementos con clase .rounded-lg */
+}
+
+.text-small {
+    font-size: 0.9rem; /* Evita el uso de !important y ajusta el tamaño de fuente */
+}
+
+.custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+    background-color: #0083B0; /* Color de fondo del separador */
+    margin: 1rem 0; /* Añade un margen para separar visualmente el separador del contenido */
+}
+
+.text-uppercase {
+    letter-spacing: 0.1em; /* Ajusta el espaciado entre letras para que sea más sutil */
+}
+
+
+
+
